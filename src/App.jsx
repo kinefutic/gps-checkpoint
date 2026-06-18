@@ -1,13 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
-// 🌟 最新の定義に合わせて db と auth をインポート
 import { db, auth } from './firebase';
-// 🌟 Firebase Authentication の最新関数をインポート
 import { 
   onAuthStateChanged, 
   signInWithEmailAndPassword, 
   signOut 
 } from 'firebase/auth';
-// 🌟 Firebase Firestore の最新関数をインポート
 import { 
   collection, 
   query, 
