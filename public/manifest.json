@@ -1,0 +1,21 @@
+{
+  "short_name": "GPSラン",
+  "name": "GPSチェックポイント・ランナー",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#ffffff",
+  "theme_color": "#52c41a",
+  "display": "standalone",
+  "orientation": "portrait"
+}
